@@ -22,7 +22,7 @@ export interface RegionalReading {
 export interface AirQualityData {
   timestamp: string;
   updateTime: string;
-  source: 'NEA API (Live)' | 'Simulated Scenario' | 'Cached';
+  source: 'NEA API (Live)' | 'Serverless API (/api/psi)' | 'Simulated Scenario' | 'Cached';
   readings: Record<SingaporeRegion, RegionalReading>;
   nationalPsi: number;
   nationalPm25: number;
