@@ -1,0 +1,6 @@
+{
+  "name": "SG AirWatch",
+  "description": "Singapore live PSI and PM2.5 air quality tracker with interactive regional map, haze threshold warnings, and push notifications.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
